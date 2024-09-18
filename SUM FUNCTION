@@ -1,0 +1,12 @@
+include <stdio.h>
+
+    int sum(int a,int b,int c){
+        return a+b+c;
+    }   
+ int main() 
+ {  
+   int x=5, y=6 , z=7;
+   printf ("Addition of the the numbers is %d",sum(x,y,z));
+   return 0;
+ }  
+   
