@@ -1,0 +1,6 @@
+#include<stdio.h>
+2	
+3	int main() {
+4	    int a[3]= {12,5,4};
+5	  return 0;
+6	}
