@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+int num, q,r;
+printf("Enter a number:");
+scanf("%d",&num);
+q=num;
+if(num>99&& num<=999){
+    r=q%10;
+    printf("%d\n",r);
+    q=q/10;
+    r=q%10;
+    printf("%d\n",r);
+     q=q/10;
+    r=q%10;
+     printf("%d\n",r);
+    
+}
+    return 0;
+}
